@@ -5,14 +5,13 @@
   color: transparent;
 }
 
-/* Animations اللي خدمنا بيهم قبيلة */
 @keyframes spin-slow {
   from { transform: translate(-50%, -50%) rotate(0deg); }
   to { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
 .animate-spin-slow {
-  position: absolute; /* باش تخدم مع الـ translate */
+  position: absolute; 
   animation: spin-slow 15s linear infinite;
 }
 
